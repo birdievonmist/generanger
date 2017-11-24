@@ -1,11 +1,16 @@
 @media only screen and (max-width: 800px) {
-	body {background-size: 250% !important; background-position: 48% center !important;}
-	/*.container-item {width: 90vw !important; min-width: 0px !important; margin-top: -150px !important;}*/
+	body {background-size: 250%; background-position: 48% center;}
+	/*.container-item {width: 90vw; min-width: 0px; margin-top: -150px;}*/
 	.mood {display: none;}
-	.about-window {font-size: 17px !important; padding: 90px 25px 30px 30px !important;}
-	.container-item {width: 75vw !important; min-width: 0px !important; margin-top: -100px !important;}
-	.about {left: 50% !important; margin-left: -17.5px;}
+	.about-window {font-size: 17px; padding: 90px 25px 30px 30px;}
+	.container-item {width: 75vw; min-width: 0px; margin-top: -100px;}
+	.about {left: 50%; margin-left: -17.5px;}
 }
+
+
+
+@media only screen and (min-width: 800px) {
+	
 
 
 .noselect {
@@ -174,4 +179,10 @@ body {
   font-family: 'Arial Narrow';
   src: url('assets/Arial Narrow.ttf') format('truetype'),
   src: ...
+}
+
+
+
+
+
 }
