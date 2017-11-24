@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 	body {background-size: 250% !important; background-position: 48% center !important;}
 	/*.container-item {width: 90vw !important; min-width: 0px !important; margin-top: -150px !important;}*/
 	.mood {display: none;}
