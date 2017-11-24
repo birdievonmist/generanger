@@ -1,0 +1,177 @@
+@media (max-width: 800px) {
+	body {background-size: 250% !important; background-position: 48% center !important;}
+	/*.container-item {width: 90vw !important; min-width: 0px !important; margin-top: -150px !important;}*/
+	.mood {display: none;}
+	.about-window {font-size: 17px !important; padding: 90px 25px 30px 30px !important;}
+	.container-item {width: 75vw !important; min-width: 0px !important; margin-top: -100px !important;}
+	.about {left: 50% !important; margin-left: -17.5px;}
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body {
+	margin: 0;
+	background-image: url("assets/ranger.jpg");
+	background-position: center center;
+	/*background-size: 110vw auto;*/
+	/*background-size: auto 100%;*/
+	/*background-size: cover;*/
+	background-size: cover;
+	hyphens: auto;
+	overflow: hidden;
+/*	width: 100%;
+	height: 100%;*/
+}
+
+
+.menu-item {
+	font-family: helvetica, sans-serif;
+	font-weight: 800;
+	color: white;
+	cursor: pointer;
+}
+
+
+.mood{
+	width: auto;
+	height: 35px;
+	border: solid 5px transparent;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	z-index: 0;
+	position: absolute;
+	right: 80px;
+	top: 25px;
+}
+
+.moodtext:hover {
+	border-bottom: 3px solid white;
+}
+
+.about{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 30px;
+	border: solid 5px white;
+	z-index: 50;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	z-index: 10;
+}
+
+/* STARTS WAY OFF SCREEN. JQUERY DISPLAYS IT.*/
+.about-window-container{
+	position: absolute;
+	top: -1500px;
+	width: 100%;
+	z-index: 9;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.about-window{
+	font-family: helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	color: #ffc800;
+	background-color: rgb(100, 45, 9);
+	padding: 25px 150px 30px 30px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-window a{
+	color: #ffc800;
+	text-decoration: none;
+	border-bottom: 3px solid #ffc800;
+}
+
+.about-window a:hover{
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid white;
+}
+
+#ytplayer {
+	position: absolute;
+	left: 0;
+	display: none;
+	width: 20vw;
+	height: 11.28vw;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.container-item {
+	width: 40vw;
+	min-width: 500px;
+	background: #f0f;
+	position: center;
+	/*PADDING AROUND TEXT*/
+	overflow: hidden;
+	padding: 13px 22px 13px 22px;
+	font-family: 'Arial Narrow', arial narrow, helvetica, sans-serif;
+	text-transform: uppercase;
+	
+	/*ALIGNS TEXT TO MIDDLE. LINE HEIGHT TO EQUAL DIV HEIGHT*/
+	vertical-align: middle;
+	/*line-height: 150px;*/
+	text-align: center;
+	/*SHIFTS BOX UP*/
+	margin-top: -150px;
+	font-size: 75px;
+
+	text-wrap: none;
+	word-wrap: none;
+	white-space: nowrap;
+	background: linear-gradient(60deg, #ebbf82 35%, #ffdea5 60%, #ebbf82 85%);
+	border:10px solid;
+	border-color:#ffe5c0 #aa815c #845a40 #efcca1;
+	box-shadow: 0px 10px 10px rgba(0, 10, 0, 0.5);
+}
+
+.container-item:hover{
+	cursor: hand;
+}
+
+
+.name {
+	color: rgba(30,10,0,1);
+    text-shadow: 2px 2px 1px rgba(240,210,190,0.6);
+}
+
+	
+
+.lowercase {
+	text-transform: lowercase !important;
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('assets/Arial Narrow.ttf') format('truetype'),
+  src: ...
+}

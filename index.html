@@ -1,0 +1,45 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+<div id="ytplayer"></div>
+<div class="menu-item about noselect">?</div>
+<div class="menu-item mood noselect">
+	<span class="moodtext">Set the Mood</span>
+	<!-- Set the Mood -->
+</div>
+
+
+
+<div class="about-window-container closed">
+	<div class="about-window">
+		The National Park Service cares for the 59 national parks throughout the U.S. Their dedicated staff, including park rangers, ensure the parks are available for all to enjoy and learn from. Help preserve this experience for future generations by <a href="https://www.nps.gov/getinvolved/donate.htm">donating now</a>. 
+		<br />
+		<br />
+		This site was inspired by a trip to Yosemite. While hiking along a trail, we noticed that when you combine a natural element with a name, it starts to sound like a ranger name. So naturally, we made a ranger generator. A Generanger. Heh.
+		<br />
+		<br />
+		Created by <a href="http://www.amalchandaria.com">Amal Chandaria</a> and <a href="http://www.kevinballon.com">Kevin Ballon</a>.
+	</div>
+</div>
+
+
+<div class="container noselect">
+	<div class="container-item responsive_headline"><span class="name">GENERATE A RANGER</span></div>
+	<!-- <div class="pocket"></div> -->
+</div>
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="jquery.fittext.js"></script>
+<script>
+  jQuery(".responsive_headline").fitText();
+  // jQuery(".responsive_headline").fitText(1.2, { minFontSize: '100px', maxFontSize: '400px' });
+</script>
+</body>
+</html>
