@@ -20,7 +20,7 @@
 
 body {
 	margin: 0;
-	background-image: url("/assets/ranger.jpg");
+	background-image: url("ranger.jpg");
 	background-position: center center;
 	/*background-size: 110vw auto;*/
 	/*background-size: auto 100%;*/
