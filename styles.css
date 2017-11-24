@@ -2,8 +2,8 @@
 	body {background-size: 250% !important; background-position: 48% center !important;}
 	/*.container-item {width: 90vw !important; min-width: 0px !important; margin-top: -150px !important;}*/
 	.mood {display: none;}
-	.about-window {font-size: 17px !important; padding: 90px 25px 30px 30px !important;}
-	.container-item {width: 75vw !important; min-width: 0px !important; margin-top: -100px !important;}
+	.about-window {font-size: 15px !important; padding: 90px 25px 30px 30px !important;}
+	.container-item {width: 75vw !important; min-width: 0px !important; margin-top: -100px !important; font-size: 7vw !important;}
 	.about {left: 50% !important; margin-left: -17.5px;}
 }
 
