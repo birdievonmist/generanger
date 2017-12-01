@@ -26,6 +26,7 @@ body {
 	/*background-size: auto 100%;*/
 	/*background-size: cover;*/
 	background-size: cover;
+	-webkit-hyphens: none;
 	hyphens: auto;
 	overflow: hidden;
 /*	width: 100%;
